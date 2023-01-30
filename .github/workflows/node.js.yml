@@ -15,17 +15,19 @@ jobs:
         node-version: [ 18.x ]
     steps:
       - uses: actions/checkout@v3
-      - name: Use Node.js ${{ matrix.node-version }}
+      - name: Use Node.js v${{ matrix.node-version }}
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
           cache: 'npm'
-      - name: NPM Build
-      - run: 'npm install --include=dev |
+      - name: NPM build
+        run: '|
+              npm install --include=dev
               npm run build'
-      - name: Update ./dist
-      - run: 'git add dist |
-              git commit -m "Update dist serviced by github pages" |
+      - name: Update dist
+        run: '|
+              git add dist 
+              git commit -m "Update dist"
               git push'
 
 
