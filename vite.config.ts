@@ -5,4 +5,7 @@ import { svelte } from '@sveltejs/vite-plugin-svelte';
 export default defineConfig({
   plugins: [svelte()],
   base: 'https://khskeb0513.github.io/lottery',
+  build: {
+    outDir: 'docs',
+  },
 });
