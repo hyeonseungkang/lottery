@@ -19,7 +19,7 @@
     <div class="read-the-docs">
         <ul>
             <li>
-                <code>range_x = 21 &lt;&equals; x &lt;&equals; 26</code>
+                <code>range_x: 21 &lt;&equals; range_x &lt;&equals; 26</code>
             </li>
             <li>
                 <code>1st_rows = 1 &lt;&equals; x &lt;&equals; range_x</code>
@@ -46,10 +46,6 @@
 
     .logo:hover {
         filter: drop-shadow(0 0 2em #646cffaa);
-    }
-
-    .logo.svelte:hover {
-        filter: drop-shadow(0 0 2em #ff3e00aa);
     }
 
     .read-the-docs {
