@@ -19,19 +19,19 @@
     <div class="read-the-docs">
         <ul>
             <li>
-                <code>range_x: 21 &lt;&equals; range_x &lt;&equals; 26</code>
+                <code>range_x: 21 ≤ range_x ≤ 26</code>
             </li>
             <li>
-                <code>1st_rows = 1 &lt;&equals; x &lt;&equals; range_x</code>
+                <code>1st_rows: 1 ≤ x ≤ range_x</code>
             </li>
             <li>
-                <code>2nd_rows = range_x &lt;&equals; x &lt;&equals; 45</code>
+                <code>2nd_rows: range_x ≤ x ≤ 45</code>
             </li>
             <li>
-                <code>3rd_rows = range_x - 10 &lt;&equals; x &lt;&equals; range_x + 20</code>
+                <code>3rd_rows: range_x - 10 ≤ x ≤ range_x + 20</code>
             </li>
             <li>
-                <code>nth_rows = 1 &lt;&equals; x &lt;&equals; 45</code>
+                <code>nth_rows: 1 ≤ x ≤ 45</code>
             </li>
         </ul>
     </div>
@@ -55,9 +55,5 @@
 
     .read-the-docs ul {
         list-style-type: circle;
-    }
-
-    code {
-        font-family: D2Coding ligature, 'D2 coding Ligature', monospace;
     }
 </style>
