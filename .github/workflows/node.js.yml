@@ -24,7 +24,7 @@ jobs:
         run: 'npm install --include=dev ;
               npm run build'
       - name: Update dist
-        run: 'git add dist ;
+        run: 'git add -f dist ;
               git commit -m "Update dist" ;
               git push'
 
