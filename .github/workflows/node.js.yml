@@ -20,10 +20,12 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: 'npm'
+      - name: NPM Build
       - run: npm install --include=dev
       - run: npm run build
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.DEPLOY_TOKEN }}
-          publish_dir: ./dist
+      - name: Update ./dist
+      - run: git add dist
+      - run: git commit -m 'Update dist serviced by github pages'
+      - run: git push
+
+
