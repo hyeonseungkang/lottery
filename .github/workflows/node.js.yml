@@ -21,11 +21,13 @@ jobs:
           node-version: ${{ matrix.node-version }}
           cache: 'npm'
       - name: NPM build
-        run: 'npm install --include=dev ;
+        run: 'npm install --include=dev;
               npm run build'
       - name: Update dist
-        run: 'git add -f dist ;
-              git commit -m "Update dist" ;
+        run: 'git config --global user.email "khskeb0513@gmail.com";
+              git config --global user.name "Hyeonseung Kang";
+              git add -f dist;
+              git commit -m "Update dist";
               git push'
 
 
