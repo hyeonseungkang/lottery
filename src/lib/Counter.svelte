@@ -7,6 +7,7 @@
      *
      * @param min
      * @param max
+     *
      * Get random int x. min <= x <= max
      */
     const getRandomInt = (min: number, max: number) => {
@@ -19,6 +20,7 @@
      *
      * @param min
      * @param max
+     *
      * Get sorted Array. min <= x <= max
      */
     const getSortedArray = (min: number, max: number) => {
@@ -28,6 +30,7 @@
     /**
      *
      * @param array
+     *
      * Shuffle array items.
      */
     const shuffle = (array: number[]) => {

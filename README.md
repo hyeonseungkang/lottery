@@ -6,8 +6,8 @@ Based by [DongHang Lottery](https://dhlottery.co.kr)
 
 ## Try it out
 
-> Lottery Extractor https://khskeb0513.github.io/lottery
+> Lottery Extractor https://hyeonseungkang.github.io/lottery
 
-Written by (Hyeonseung Kang)<khskeb0513@gmail.com>
+Written by (Hyeonseung Kang)<hyeonseungkang@outlook.com>
 
 MIT License

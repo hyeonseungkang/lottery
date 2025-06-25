@@ -24,7 +24,7 @@ jobs:
         run: 'npm install --include=dev;
               npm run build'
       - name: Update dist
-        run: 'git config --global user.email "khskeb0513@gmail.com";
+        run: 'git config --global user.email "hyeonseungkang@outlook.com";
               git config --global user.name "Hyeonseung Kang";
               git add -f docs;
               git commit -m "Update dist";
